@@ -1,9 +1,9 @@
 # PhD Outreach Workflow · 博士套磁信工作流
 
-有需求欢迎交流
-<img width="652" height="671" alt="微信图片_20261104172708_25_95(1)" src="https://github.com/user-attachments/assets/83ffe617-45e6-42d4-ad8c-db294e9b5f96" />
-<img width="987" height="1347" alt="微信图片_20261104172707_24_95" src="https://github.com/user-attachments/assets/1216e6dd-552b-4e55-ac26-9b4bf15d8852" />
+**有需求欢迎交流**
 
+
+<img width="652" height="671" alt="微信图片_20261104172708_25_95(1)" src="https://github.com/user-attachments/assets/83ffe617-45e6-42d4-ad8c-db294e9b5f96" />
 
 将 Web of Science 导出的论文数据与申请人的 PDF 简历结合，完成导师筛选、研究方向建议、套磁信生成及润色。当前提示词和研究所白名单以生物医学为主。
 
