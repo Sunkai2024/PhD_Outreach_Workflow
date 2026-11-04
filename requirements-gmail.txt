@@ -1,0 +1,4 @@
+# Optional Gmail OAuth dependencies; the 1-7 generation pipeline does not need these.
+google-api-python-client>=2,<3
+google-auth>=2,<3
+google-auth-oauthlib>=1,<2

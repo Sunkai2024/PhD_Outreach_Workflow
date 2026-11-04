@@ -1,0 +1,15 @@
+# Direct dependencies for Python 3.11 / 3.12.
+# Install with: python -m pip install -r requirements.txt
+# This file does not lock transitive dependencies.
+
+pandas==2.3.3
+numpy==2.2.6
+openpyxl==3.1.5        # 读写 .xlsx 必需 (pandas 不自带 Excel 引擎)
+openai==2.9.0          # OpenAI-compatible DeepSeek client
+tqdm==4.67.1
+pdfplumber==0.11.9
+pypdf==6.9.2
+
+# 仅当 WOS 导出是旧式 .xls 格式才需要; 全是 .xlsx 时可不装。
+# xlrd 2.0+ only reads .xls; openpyxl reads .xlsx.
+xlrd>=2.0.1

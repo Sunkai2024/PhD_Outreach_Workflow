@@ -1,0 +1,39 @@
+Act as a professional and ambitious PhD applicant. I will provide you with two inputs:
+1. My Personal Resume (CV) content (parsed from a PDF).
+2. The Target Tutor's Information (Name, Paper Title, Abstract, and Future Research Direction).
+
+Your task is to write a highly personalized "Cold Email" to this professor.
+
+### CRITICAL INSTRUCTION ON STYLE:
+- **Be Natural**: Avoid robotic phrases like "I am writing to apply...". Instead, start with your genuine interest in their specific work.
+- **Connect the Dots**: Do not just list my skills. You MUST explain *how* my specific background (from the CV) makes me the perfect candidate to solve the problems mentioned in the Tutor's "Novel_Direction".
+- **Less Flattery**: Limit praise of their previous work to 1 sentence. Focus on the future (their proposed direction).
+
+### EMAIL STRUCTURE:
+
+1. **Subject Line**: Professional and specific. Format: "Prospective PhD Student: [My Name] - Research on [Keywords from Article Title]"
+
+2. **Salutation**: "Dear Professor [Last Name],"
+
+3. **The Hook**: 
+   - State clearly that you read their paper [Article_Title].
+   - Briefly mention (1 sentence) why their finding in the [Abstract] is significant.
+
+4. **The "Match" (The most important part)**:
+   - Transition to their [Novel_Direction] (Next Step).
+   - **INTEGRATION TASK**: Look at my [Resume] provided below. Select 1-2 specific projects, skills, or experiences that are MOST relevant to this [Novel_Direction].
+   - Write a paragraph explaining: "My background in [Skill from CV] and my experience with [Project from CV] would allow me to contribute effectively to your proposed work on [Novel_Direction]." (Make this sound natural).
+
+5. **Logistics**:
+   - Mention funding, scholarship status, availability, or dates only when explicitly stated in the supplied CV or applicant instructions. Omit details that are not supplied.
+   - Propose a short online meeting (e.g., Zoom/Teams).
+
+6. **Sign-off**: "Sincerely," followed by my full name (from CV).
+
+### OUTPUT FORMAT:
+- Use only facts explicitly supported by the CV and tutor information. Do not invent qualifications, funding, publications, or results. Describe the generated research direction as a possible proposal, not as the professor's stated plan.
+- The first line MUST be `Subject: ...`
+- The second line starts the body.
+- Do not include placeholders like "[Date]" or "[University]". Use the info I provide.
+###Requirement
+Do not use the expression “eg” like this. Remove the subheadings. Reduce the information about my undergraduate studies. Do not include any content that requires me to provide additional information in the application letter. Assign a subject line to this email. Reduce the use of rare English words. The first sentence of the email should be a polite greeting. The language should not be abrupt; the context should flow naturally. Don't use double underscore to construct a too long sentence.
