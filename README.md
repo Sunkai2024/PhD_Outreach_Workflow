@@ -1,5 +1,10 @@
 # PhD Outreach Workflow · 博士套磁信工作流
 
+有需求欢迎交流
+<img width="652" height="671" alt="微信图片_20261104172708_25_95(1)" src="https://github.com/user-attachments/assets/83ffe617-45e6-42d4-ad8c-db294e9b5f96" />
+<img width="987" height="1347" alt="微信图片_20261104172707_24_95" src="https://github.com/user-attachments/assets/1216e6dd-552b-4e55-ac26-9b4bf15d8852" />
+
+
 将 Web of Science 导出的论文数据与申请人的 PDF 简历结合，完成导师筛选、研究方向建议、套磁信生成及润色。当前提示词和研究所白名单以生物医学为主。
 
 主流程共 7 步，输出为邮件文本。另附 Gmail OAuth 授权工具，用于准备后续发送程序需要的授权文件；本项目目前没有发送邮件或批量发送的程序。
@@ -438,10 +443,6 @@ python authorize_gmail.py --help
 ~~~
 
 运行主流程时会将论文信息、联系方式、CV 或草稿发给 DeepSeek，具体取决于步骤。离线测试不会调用服务，也不能证明模型可用或整条业务流程通过。
-
-公开版不含真实密钥、申请人资料、WOS 导出、QS 原表、内部 PDF、本地 Python 安装、缓存、日志或结果。.gitignore 对根目录采用公开文件白名单，新增源码需同步更新；真实配置、Gmail 凭据和新放入的数据默认不会被 git add . 收录。
-
-上传前检查暂存内容：
 
 ~~~bash
 git init
