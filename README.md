@@ -431,25 +431,3 @@ Generated_Emails_PDF_polished/*.txt 是本项目提供的材料。主流程目�
 | Gmail 回调失败 | 保持授权脚本运行，远程需转发相同端口 |
 
 发送前人工核对姓名、邮箱、论文细节、研究建议和资助状态。某些步骤在 API 失败时会跳过记录，退出并不代表每条记录都成功，应结合日志检查完整性。
-
-## 9. 验证与上传 GitHub
-
-在干净源码目录运行离线检查，不需要真实 CV、API 密钥或 Gmail 账号：
-
-~~~bash
-python -m unittest discover -s tests -v
-bash -n start.sh run_pipeline.sh run_rest.sh
-python authorize_gmail.py --help
-~~~
-
-运行主流程时会将论文信息、联系方式、CV 或草稿发给 DeepSeek，具体取决于步骤。离线测试不会调用服务，也不能证明模型可用或整条业务流程通过。
-
-~~~bash
-git init
-git add .
-git diff --cached --stat
-git diff --cached
-git status --short
-~~~
-
-确认后再提交推送。Git 忽略规则不会保护被强制添加或网页拖入的文件。已泄露的密钥需在服务商后台撤销；删除当前文件不会删除 Git 历史。项目未指定开源许可证。
